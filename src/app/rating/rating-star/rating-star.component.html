@@ -1,0 +1,8 @@
+<div>
+    <span class="icon" *ngFor="let s of maxItem">
+
+          <i class="fa-star" [ngClass]=" s <= this.ratedCount ? 'fas' : 'far' " aria-hidden="true" (click)="toggleRating(s)">        
+            </i>
+
+    </span>
+</div>
